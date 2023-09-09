@@ -36,5 +36,7 @@ Configure devices, platforms, and other parameters in the capabilities.json file
 **Allure Setup**: Follow instructions from Allure's official site (https://docs.qameta.io/allure/)
 
 **Execution**:
+
 Run the TestRunner 
+
 Post execution, for an Allure report, run: allure serve allure-results.

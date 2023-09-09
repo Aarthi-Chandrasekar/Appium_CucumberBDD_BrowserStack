@@ -1,0 +1,38 @@
+{
+  "iOS": {
+    "browserstack.user": "YOUR_USERNAME",
+    "browserstack.key": "YOUR_KEY",
+    "device": "iPhone 11 Pro",
+    "realMobile": true,
+    "browserstack.local": false,
+    "app": "Your_APP_URL"
+  },
+  "Android": {
+    "browserstack.user": "YOUR_USERNAME",
+    "browserstack.key": "YOUR_KEY",
+    "device": "Samsung Galaxy S21",
+    "os_version": "11.0",
+    "browserstack.debug": "true",
+    "browserstack.local": false,
+    "app": "Your_APP_URL"
+  },
+  "Safari": {
+    "browserName": "safari",
+    "device": "iPhone 11 Pro",
+    "realMobile": "true",
+    "browserstack.local": false,
+    "name": "BStack-Sause Demo Test",
+    "browserstack.user": "YOUR_USERNAME",
+    "browserstack.key": "YOUR_KEY"
+  },
+  "ChromeWeb": {
+    "browserName": "chrome",
+    "device": "Samsung Galaxy S21",
+    "realMobile": "true",
+    "os_version": "11.0",
+    "browserstack.local": false,
+    "name": "BStack-Sause Demo Chrome Test",
+    "browserstack.user": "YOUR_USERNAME",
+    "browserstack.key": "YOUR_KEY"
+  }
+}

@@ -21,6 +21,8 @@ Integrated with Allure for enhanced reporting. We've chosen to utilize BrowserSt
 
 **Configurable Setup**: Set your testing preferences like device, platform, and application under test in the capabilities.json file.
 
+Comes with a sample Android APK and sample iOS IPA for testing out the retail mobile app on both platforms.
+
 **Steps to Run the Framework**:
 
 **Setup on BrowserStack**: Begin by creating an account on BrowserStack and retrieve the Username and AccessKey.
@@ -37,6 +39,6 @@ Configure devices, platforms, and other parameters in the capabilities.json file
 
 **Execution**:
 
-Run the TestRunner 
+Run the TestRunner.java 
 
 Post execution, for an Allure report, run: allure serve allure-results.
